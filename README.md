@@ -1,5 +1,5 @@
 
-## Sobre o projeto Assistente:
+## Sobre o projeto de Conversão de Imagem para Texto:
 
 O OCR (Reconhecimento Óptico de Caracteres) é uma tecnologia que permite reconhecer caracteres a partir de arquivos de imagem ou mapas de bits, sejam eles digitalizados, escritos à mão, datilografados ou impressos. Basicamente, o OCR transforma imagens de texto em arquivos de texto editáveis por computadores.
 
