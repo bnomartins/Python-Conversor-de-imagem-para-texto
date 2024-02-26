@@ -15,10 +15,13 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
 
-list =  listdir('./autoavaliacao')
+list =  listdir('./imagens')
+
+print(list)
+
 text = ""
 for arquivo in list:
     f = open('convert.txt', 'a', encoding='utf8' )
-    f.write(pytesseract.image_to_string(Image.open(f'./autoavaliacao/{arquivo}')))
+    f.write(pytesseract.image_to_string(Image.open(f'./imagens/{arquivo}')))
 
 print('processo finalizado')
